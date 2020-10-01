@@ -1,0 +1,37 @@
+I have made a fun game with simple python .
+It generate a random 4 digit number.
+You have to give a an input for 7 times that are your seven guesses .
+Your guesses should not have more than 4 digit 
+Your guess should not contain a 0 in it 
+When you have a output of 4 cow,  congrats you won. 
+Enjoy playing. 
+Refer the below to know more 
+
+Welcome to Cows and Bulls!
+1.Try to use less than 7 guesses
+2.always type number containing different digits
+3.use 4 digit numbers only having no 0's at all
+4.cows = no of correct guesses of digit at correct place
+5.bulls = no of correct guesses of digits but at wrong place
+1 6 7 5
+give me a 4 digit number:2345
+cows: 1 bulls: 0
+give me a 4 digit number:2342
+you need to enter number having different digits
+This will not be counted as a guess.
+give me a 4 digit number:3567
+cows: 0 bulls: 3
+give me a 4 digit number:2345
+cows: 1 bulls: 0
+give me a 4 digit number:3853
+you need to enter number having different digits
+This will not be counted as a guess.
+give me a 4 digit number:4375
+cows: 2 bulls: 0
+give me a 4 digit number:9843
+cows: 0 bulls: 0
+give me a 4 digit number:1675
+cows: 4 bulls: 0
+you have guessed the number correctly in : 6 gueeses
+That means you have won
+Congrutalations!!
