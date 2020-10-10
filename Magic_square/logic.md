@@ -13,13 +13,13 @@ These are NxN square matrix and the sum of each row,column and diagonal is same.
 
     Please input the no of rows in Required Magic Squre:3
     Check The sum of Every row , column and diagonal is 15
-    -------------
+    ----------------------
     |  8   |  1   |  6   |
-    -------------
+    ----------------------
     |  3   |  5   |  7   |
-    -------------
+    ----------------------
     |  4   |  9   |  2   |
-    -------------
+    ---------------------
 
 
 Note: Just for formatting the output i assumed the input numbers are less than 1e3 .Also for input larger than this the prograam may give TLE as it have O(n<sup>2</sup>).
