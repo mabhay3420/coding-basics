@@ -44,36 +44,15 @@ int main() {
     godspeed
     ll t;
     cin>>t;
-    vll day{31,29,31,30,31,30,31,31,30,31,30,31,31,29,31,30,31,30,31,31,30,31,30,31};
-    vector<string> months{"january","february","march","april","may","june","july","august","september","october","november","december"};
-    map<string ,ll> month_days;
-    F(i,0,12){
-        month_days[months[i]] = i;
-    }
-    while(t--){
+    while (t--)
+    {
         ll n;
         cin>>n;
-        string s;
-        cin>>s;
-        ll index = month_days[s];
-        ll final_index = index;
-        ll final_day = n;
-        ll day_remain =
-        F(i,index,24){
-
-                if(final_day+day_remain>day[i]){
-                    final_day = n+day_remain-day[i];
-                    day_remain-=day[i];
-                    if(day_remain<0)day_remain=0;
-                    final_index = i+1;
-                }
-                else{
-                    final_day +=day_remain;
-                    break;
-                }
+        vll a(n);
+        F(i,0,n){
+            cin>>a[i];
         }
-        if(final_index>11)final_index-=12;
-        cout<<final_day<<" "<<months[final_index]<<endl;
     }
+    
     return 0;
 }
