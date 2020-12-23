@@ -44,15 +44,13 @@ int main() {
     godspeed
     ll t;
     cin>>t;
-    while (t--)
-    {
-        ll n;
-        cin>>n;
-        vll a(n);
-        F(i,0,n){
-            cin>>a[i];
-        }
+    while(t--){
+	    ll n;
+	    cin>>n;
+	    vll a(n);
+	    F(i,0,n){
+		    cin>>a[i];
+		}
     }
-    
     return 0;
 }
