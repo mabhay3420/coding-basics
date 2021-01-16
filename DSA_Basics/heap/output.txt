@@ -1,0 +1,38 @@
+
+---Array Representation---
+
+1 2 2 2 4 23 3 12 3 23 67 23 123 11 4 
+
+-----Visual Representation of Tree-----
+
+              1              
+             / \             
+            /   \            
+           /     \           
+          /       \          
+         /         \         
+        /           \        
+       /             \       
+      2               2      
+     / \             / \     
+    /   \           /   \    
+   /     \         /     \   
+  2       4       23      3  
+ / \     / \     / \     / \ 
+12  3   23  67  23  123 11  4
+
+
+---Array Representation---
+
+1 2 4 99 5 8 
+
+-----Visual Representation of Tree-----
+
+      1      
+     / \     
+    /   \    
+   /     \   
+  2       4  
+ / \     /   
+99  5   8    
+
