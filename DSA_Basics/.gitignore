@@ -1,3 +1,4 @@
-Heap/heap
-Heap/pretty_print
-Heap/run_program.sh
+heap/heap
+*.sh
+heap/pretty_print
+segment_tree/seg_tree
